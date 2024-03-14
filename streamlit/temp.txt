@@ -1,0 +1,6 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://169.255.255.2:8501
+  External URL: http://52.4.240.77:8501
+

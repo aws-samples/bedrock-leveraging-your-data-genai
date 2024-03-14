@@ -1,0 +1,19 @@
+corpus:
+  path14A_html: ../data/14A/
+  path14A_frag: ../data/14A_frags/
+  path14A_meta: ../data/14A_meta/
+
+kendra:
+  index_id: 35c6def6-28b7-4214-8b39-ed40e27ebf8b
+  region_name: us-east-1
+  data_source: s3://genaiconf-2958e600/
+
+aos:
+ aos_host: c5rhjwdc66y1i1n3r9r7.us-east-1.aoss.amazonaws.com
+ aos_index: fsi-demo-knn-titan
+
+llm:
+#  t5_endpoint: jumpstart-example-huggingface-text2text-2024-02-07-19-34-46-392
+#  embedding_endpoint: jumpstart-dft-hf-textembedding-gpt-j-6b-fp16-feb7-230
+  bedrock_embedding: amazon.titan-embed-text-v1
+  bedrock_text: anthropic.claude-v2
